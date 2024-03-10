@@ -1,5 +1,5 @@
 # 2D-Navier-Stokes-solver-
-
+## Release date: 10 March 2024
 ## Overview:
 This code presents a robust MATLAB-based solver for the 2D Navier-Stokes equations on structured grids, accommodating both Dirichlet and Neumann boundary conditions. It employs a central difference scheme for spatial discretization and offers various time integration schemes such as Runge-Kutta Chebyshev, RK2, and explicit Euler. Helmholtz Decomposition is utilized to compose the velocity field into solenoidal and non-solenoidal counterpart. The Chorin projection method is utilized to decompose the velocity field into divergence-free and gradient components, ensuring solution accuracy and satisfying the incompressibility constraint of the Navier-Stokes equations.
 Designed with modularity in mind, the code facilitates easy adaptation to different 2D flow problems. Furthermore, it seamlessly handles passive scalar transport, making it suitable for simulating heat transfer and species transport scenarios.
