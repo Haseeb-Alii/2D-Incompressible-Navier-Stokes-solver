@@ -43,4 +43,4 @@ Designed with modularity in mind, the code facilitates easy adaptation to differ
 - **Limitation:** Primarily designed for structured 2D grids; might not be suitable for unstructured grids without modification. Attention to grid resolution is crucial for turbulence simulations. Low-resolution DNS simulations can be performed with suitable filters applied to the Navier-Stokes equations.
 - **Extension to Heat Transfer Problems:** With minor adjustments, the code handles passive scalar transport, enabling simulation of heat transfer and multiphase species transport problems.
 
-Ensure appropriate parameter and boundary condition settings for accurate simulation and choose the suitable time integration scheme based on accuracy and computational efficiency requirements.
+Ensure appropriate parameter and boundary condition settings for accurate simulation and choose the suitable time integration scheme and time step based on accuracy and computational efficiency requirements.
